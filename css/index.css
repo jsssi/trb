@@ -44,7 +44,7 @@ body::after{
 .caixa{
     width:fit-content;
     color: #fff;
-    background: rgba(0, 0, 0, 0.733);
+    background: rgb(0, 0, 0);
     padding: 2.0rem  3.0rem;
     border-radius: 1.6rem;
     box-shadow: 0 .4rem  3.0rem rgba(0, 0, 0, 0.1);
@@ -102,7 +102,7 @@ form{
   top: -1rem;
   font-size: 1.6rem;
   background: rgb(0, 0, 0);
-  
+  box-shadow: 5px 5px 15px black;
 }
 .input-group input:focus{
     border:1px solid green;
