@@ -15,6 +15,6 @@ class sla {
 
 sla.search('EUR','BRL').then(data =>{
 	console.log(data.result.convertedAmount)
-	alert('sai')
+	
 })
 

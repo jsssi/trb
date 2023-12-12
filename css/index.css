@@ -108,3 +108,21 @@ form{
     border:1px solid green;
     transition: all 600ms;
 }
+form #result{
+    color: #fff;
+    line-height: 1.6rem;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+form #btn-result{
+    background: green;
+
+    width: 100%;
+    padding: 1.0rem;
+    border-radius: 1.0rem;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+form #btn-result:hover{
+    filter: brightness(.4);
+}
